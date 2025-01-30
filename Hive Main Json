@@ -1,0 +1,1573 @@
+{
+  "status": true,
+  "app_config": {
+    "theme": "https://images.elivehive.com/hive_config/white_theme/transparent_theme_background_default.png",
+    "pages": [
+      {
+        "page": "Home",
+        "feature_name": "banner",
+        "tag": "home_banner",
+        "position": 0,
+        "api_base_url": "main",
+        "api_endpoint": "/admin/active-banner",
+        "height": 300,
+        "width": 500,
+        "background": "https://images.elivehive.com/hive_config/base_theme/base_theme_background_default.png"
+      },
+      {
+        "page": "Home",
+        "feature_name": "rank",
+        "tag": "home_rank",
+        "position": 1,
+        "api_base_url": "main",
+        "api_endpoint": "/admin/leaderboard_rank",
+        "height": 300,
+        "width": 500,
+        "background": "https://images.elivehive.com/hive_config/base_theme/base_theme_background_default.png"
+      },
+      {
+        "page": "Home",
+        "feature_name": "activity",
+        "tag": "home_activity",
+        "position": 2,
+        "api_base_url": "main",
+        "api_endpoint": "/admin/activity_list",
+        "height": 300,
+        "width": 500,
+        "background": "https://images.elivehive.com/hive_config/base_theme/base_theme_background_default.png"
+      },
+      {
+        "page": "Home",
+        "feature_name": "feed_tag",
+        "tag": "home_feed_tag",
+        "position": 3,
+        "api_base_url": "main",
+        "api_endpoint": "/admin/feed_tag_list",
+        "height": 300,
+        "width": 500,
+        "background": "https://images.elivehive.com/hive_config/base_theme/base_theme_background_default.png"
+      },
+      {
+        "page": "Home",
+        "feature_name": "feed",
+        "tag": "home_feed",
+        "position": 4,
+        "api_base_url": "main",
+        "api_endpoint": "/broadcast/home",
+        "height": 300,
+        "width": 500,
+        "background": "https://images.elivehive.com/hive_config/base_theme/base_theme_background_default.png"
+      },
+      {
+        "page": "Explore",
+        "feature_name": "explore_country",
+        "tag": "explore_country_section",
+        "position": 0,
+        "api_base_url": "main",
+        "api_endpoint": "/explore/country",
+        "height": 300,
+        "width": 500,
+        "background": "https://images.elivehive.com/hive_config/base_theme/base_theme_background_default.png"
+      },
+      {
+        "page": "Explore",
+        "feature_name": "explore_banner",
+        "tag": "explore_banner",
+        "position": 1,
+        "api_base_url": "main",
+        "api_endpoint": "/explorer/event",
+        "height": 300,
+        "width": 500,
+        "background": "https://images.elivehive.com/hive_config/base_theme/base_theme_background_default.png"
+      },
+      {
+        "page": "Explore",
+        "feature_name": "explore_feed",
+        "tag": "explore_spotlight_section",
+        "position": 2,
+        "api_base_url": "main",
+        "api_endpoint": "/explorer/spotlight",
+        "height": 300,
+        "width": 500,
+        "background": "https://images.elivehive.com/hive_config/base_theme/base_theme_background_default.png"
+      },
+      {
+        "page": "Follow",
+        "feature_name": "recommended",
+        "tag": "follow_recommended_section",
+        "position": 0,
+        "api_base_url": "main",
+        "api_endpoint": "/user/recommended_users",
+        "height": 300,
+        "width": 500,
+        "background": "https://images.elivehive.com/hive_config/base_theme/base_theme_background_default.png"
+      },
+      {
+        "page": "Follow",
+        "feature_name": "following_feed",
+        "tag": "follow_feed_section",
+        "position": 1,
+        "api_base_url": "main",
+        "api_endpoint": "/broadcast/followingfeed",
+        "height": 300,
+        "width": 500,
+        "background": "https://images.elivehive.com/hive_config/base_theme/base_theme_background_default.png"
+      }
+    ],
+    "tabs": [
+      {
+        "tag": "home_tab_top",
+        "title": [
+          {
+            "title": "Popular",
+            "tag": "home_top_popular"
+          },
+          {
+            "title": "New",
+            "tag": "home_top_new"
+          },
+          {
+            "title": "Follow",
+            "tag": "home_top_follow"
+          }
+        ]
+      },
+      {
+        "tag": "chat_tab_top",
+        "title": [
+          {
+            "title": "Message",
+            "tag": "chat_top_message"
+          },
+          {
+            "title": "Group",
+            "tag": "chat_top_group"
+          }
+        ]
+      },
+      {
+        "tag": "chat_message_tabs",
+        "title": [
+          {
+            "title": "Chat History",
+            "tag": "chat_history_tab"
+          },
+          {
+            "title": "Friends",
+            "tag": "chat_friends_tab"
+          }
+        ]
+      }
+    ],
+    "contents": [
+      {
+        "tag": "home_top_popular",
+        "title": "Popular",
+        "active_color": "#000000",
+        "inactive_color": "#535355"
+      },
+      {
+        "tag": "home_top_new",
+        "title": "New",
+        "active_color": "#000000",
+        "inactive_color": "#535355"
+      },
+      {
+        "tag": "home_top_follow",
+        "title": "Follow",
+        "active_color": "#000000",
+        "inactive_color": "#535355"
+      },
+      {
+        "tag": "chat_top_message",
+        "title": "Message",
+        "active_color": "#000000",
+        "inactive_color": "#535355"
+      },
+      {
+        "tag": "chat_top_group",
+        "title": "Group",
+        "active_color": "#000000",
+        "inactive_color": "#535355"
+      },
+      {
+        "tag": "chat_history_tab",
+        "title": "Chat History",
+        "active_color": "#000000",
+        "inactive_color": "#535355"
+      },
+      {
+        "tag": "chat_friends_tab",
+        "title": "Friends",
+        "active_color": "#000000",
+        "inactive_color": "#535355"
+      },
+      {
+        "tag": "explore_page",
+        "title": "Explore",
+        "active_color": "#000000",
+        "inactive_color": "#535355"
+      },
+      {
+        "tag": "home_top_sender",
+        "title": "Top Sender",
+        "active_color": "#4A611C",
+        "inactive_color": "#8A8888"
+      },
+      {
+        "tag": "home_top_receiver",
+        "title": "Top Receiver",
+        "active_color": "#073F5E",
+        "inactive_color": "#8A8888"
+      },
+      {
+        "tag": "home_top_pk",
+        "title": "Top PK",
+        "active_color": "#1F2C61",
+        "inactive_color": "#8A8888"
+      },
+      {
+        "tag": "home_feed_tag_popular",
+        "title": "Popular",
+        "active_color": "#FFFFFF",
+        "inactive_color": "#C671F5"
+      },
+      {
+        "tag": "home_feed_tag_friends",
+        "title": "Friends",
+        "active_color": "#FFFFFF",
+        "inactive_color": "#C671F5"
+      },
+      {
+        "tag": "home_feed_tag_sing",
+        "title": "Sing",
+        "active_color": "#FFFFFF",
+        "inactive_color": "#C671F5"
+      },
+      {
+        "tag": "home_feed_tag_love",
+        "title": "Love",
+        "active_color": "#FFFFFF",
+        "inactive_color": "#C671F5"
+      },
+      {
+        "tag": "home_feed_tag_family",
+        "title": "Family",
+        "active_color": "#FFFFFF",
+        "inactive_color": "#C671F5"
+      },
+      {
+        "tag": "home_feed_tag_chat",
+        "title": "Chat",
+        "active_color": "#FFFFFF",
+        "inactive_color": "#C671F5"
+      },
+      {
+        "tag": "home_feed_tag_romance",
+        "title": "Romance",
+        "active_color": "#FFFFFF",
+        "inactive_color": "#C671F5"
+      },
+      {
+        "tag": "explore_country_section",
+        "title": "Countries",
+        "active_color": "#000000",
+        "inactive_color": "#8A8888"
+      },
+      {
+        "tag": "explore_spotlight_section",
+        "title": "Spotlight",
+        "active_color": "#000000",
+        "inactive_color": "#8A8888"
+      },
+      {
+        "tag": "follow_recommended_section",
+        "title": "Recommended",
+        "active_color": "#000000",
+        "inactive_color": "#8A8888"
+      },
+      {
+        "tag": "follow_feed_section",
+        "title": "My Follow",
+        "active_color": "#000000",
+        "inactive_color": "#8A8888"
+      },
+      {
+        "tag": "profile_wallet",
+        "title": "Wallet",
+        "active_color": "#1D212A",
+        "inactive_color": "#8A8888"
+      },
+      {
+        "tag": "profile_mall",
+        "title": "Mall",
+        "active_color": "#1D212A",
+        "inactive_color": "#8A8888"
+      },
+      {
+        "tag": "profile_task",
+        "title": "Task",
+        "active_color": "#1D212A",
+        "inactive_color": "#8A8888"
+      },
+      {
+        "tag": "profile_level",
+        "title": "Level",
+        "active_color": "#1D212A",
+        "inactive_color": "#8A8888"
+      },
+      {
+        "tag": "profile_public_profile",
+        "title": "Public Profile",
+        "active_color": "#1D212A",
+        "inactive_color": "#8A8888"
+      },
+      {
+        "tag": "profile_my_badges",
+        "title": "My Badges",
+        "active_color": "#1D212A",
+        "inactive_color": "#8A8888"
+      },
+      {
+        "tag": "profile_my_bag",
+        "title": "My Bag",
+        "active_color": "#1D212A",
+        "inactive_color": "#8A8888"
+      },
+      {
+        "tag": "profile_guardianship",
+        "title": "Guardianship",
+        "active_color": "#1D212A",
+        "inactive_color": "#8A8888"
+      },
+      {
+        "tag": "profile_reward",
+        "title": "Reward",
+        "active_color": "#1D212A",
+        "inactive_color": "#8A8888"
+      },
+      {
+        "tag": "profile_withdraw",
+        "title": "Withdraw",
+        "active_color": "#1D212A",
+        "inactive_color": "#8A8888"
+      },
+      {
+        "tag": "profile_follow_request",
+        "title": "Follow Request",
+        "active_color": "#1D212A",
+        "inactive_color": "#8A8888"
+      },
+      {
+        "tag": "profile_blocked",
+        "title": "Blocked",
+        "active_color": "#1D212A",
+        "inactive_color": "#8A8888"
+      },
+      {
+        "tag": "profile_settings",
+        "title": "Settings",
+        "active_color": "#1D212A",
+        "inactive_color": "#8A8888"
+      },
+      {
+        "tag": "chat_group_admin",
+        "title": "Admin",
+        "active_color": "#000000",
+        "inactive_color": "#535355"
+      },
+      {
+        "tag": "chat_start_live",
+        "title": "Start Live",
+        "active_color": "#FFFFFF",
+        "inactive_color": "#535355"
+      },
+      {
+        "tag": "chat_accept_call",
+        "title": "Accept Call",
+        "active_color": "#000000",
+        "inactive_color": "#535355"
+      },
+      {
+        "tag": "chat_reject_call",
+        "title": "Reject Call",
+        "active_color": "#000000",
+        "inactive_color": "#535355"
+      },
+      {
+        "tag": "chat_add_friend",
+        "title": "Add Friend",
+        "active_color": "#FFFFFF",
+        "inactive_color": "#535355"
+      },
+      {
+        "tag": "chat_create_group",
+        "title": "Create Group",
+        "active_color": "#FFFFFF",
+        "inactive_color": "#535355"
+      },
+      {
+        "tag": "profile_edit",
+        "title": "Edit Profile",
+        "active_color": "#FF00B2",
+        "inactive_color": "#535355"
+      },
+      {
+        "tag": "explore_more",
+        "title": "More",
+        "active_color": "#828282",
+        "inactive_color": "#535355"
+      },
+      {
+        "tag": "profile_followers",
+        "title": "Followers",
+        "active_color": "#939091",
+        "inactive_color": "#535355"
+      },
+      {
+        "tag": "profile_following",
+        "title": "Following",
+        "active_color": "#939091",
+        "inactive_color": "#535355"
+      },
+      {
+        "tag": "profile_friends",
+        "title": "Friends",
+        "active_color": "#939091",
+        "inactive_color": "#535355"
+      },
+      {
+        "tag": "profile_my_data_text",
+        "title": "My Data",
+        "active_color": "#FFFFFF",
+        "inactive_color": "#535355"
+      },
+      {
+        "tag": "profile_total_earned_text",
+        "title": "Total Earned",
+        "active_color": "#FFDCAB",
+        "inactive_color": "#535355"
+      },
+      {
+        "tag": "profile_live_duration_text",
+        "title": "Live Duration",
+        "active_color": "#FFDCAB",
+        "inactive_color": "#535355"
+      },
+      {
+        "tag": "profile_VIP_text",
+        "title": "VIP",
+        "active_color": "#FFE99A",
+        "inactive_color": "#535355"
+      },
+      {
+        "tag": "profile_vip_promotion_text",
+        "title": "VIP Promotion",
+        "active_color": "#FFE99A",
+        "inactive_color": "#535355"
+      },
+      {
+        "tag": "home_select_live_tag_text",
+        "title": "Select Live Tag",
+        "active_color": "#FFFFFF",
+        "inactive_color": "#C671F5"
+      }
+    ],
+    "resources": [
+      {
+        "title": "Search Icon",
+        "page": "Home",
+        "tag": "home_search",
+        "icon_name": "home_search_default",
+        "icon_type": "png",
+        "icon_file": "home_search_default.png",
+        "icon_url": "https://images.elivehive.com/page_config/home/home_search_default.png"
+      },
+      {
+        "title": "Wallet",
+        "page": "Profile",
+        "tag": "profile_wallet",
+        "icon_name": "profile_wallet_default",
+        "icon_type": "png",
+        "icon_file": "profile_wallet_default.png",
+        "icon_url": "https://images.elivehive.com/page_config/profile/profile_wallet_default.png"
+      },
+      {
+        "title": "Mall",
+        "page": "Profile",
+        "tag": "profile_mall",
+        "icon_name": "profile_mall_default",
+        "icon_type": "png",
+        "icon_file": "profile_mall_default.png",
+        "icon_url": "https://images.elivehive.com/page_config/profile/profile_mall_default.png"
+      },
+      {
+        "title": "Task",
+        "page": "Profile",
+        "tag": "profile_task",
+        "icon_name": "profile_task_default",
+        "icon_type": "png",
+        "icon_file": "profile_task_default.png",
+        "icon_url": "https://images.elivehive.com/page_config/profile/profile_task_default.png"
+      },
+      {
+        "title": "Level",
+        "page": "Profile",
+        "tag": "profile_level",
+        "icon_name": "profile_level_default",
+        "icon_type": "png",
+        "icon_file": "profile_level_default.png",
+        "icon_url": "https://images.elivehive.com/page_config/profile/profile_level_default.png"
+      },
+      {
+        "title": "Public Profile",
+        "page": "Profile",
+        "tag": "profile_public_profile",
+        "icon_name": "profile_public_profile_default",
+        "icon_type": "png",
+        "icon_file": "profile_public_profile_default.png",
+        "icon_url": "https://images.elivehive.com/page_config/profile/profile_public_profile_default.png"
+      },
+      {
+        "title": "My Badges",
+        "page": "Profile",
+        "tag": "profile_my_badges",
+        "icon_name": "profile_my_badges_default",
+        "icon_type": "png",
+        "icon_file": "profile_my_badges_default.png",
+        "icon_url": "https://images.elivehive.com/page_config/profile/profile_my_badges_default.png"
+      },
+      {
+        "title": "My Bag",
+        "page": "Profile",
+        "tag": "profile_my_bag",
+        "icon_name": "profile_my_bag_default",
+        "icon_type": "png",
+        "icon_file": "profile_my_bag_default.png",
+        "icon_url": "https://images.elivehive.com/page_config/profile/profile_my_bag_default.png"
+      },
+      {
+        "title": "Guardianship",
+        "page": "Profile",
+        "tag": "profile_guardianship",
+        "icon_name": "profile_guardianship_default",
+        "icon_type": "png",
+        "icon_file": "profile_guardianship_default.png",
+        "icon_url": "https://images.elivehive.com/page_config/profile/profile_guardianship_default.png"
+      },
+      {
+        "title": "Reward",
+        "page": "Profile",
+        "tag": "profile_reward",
+        "icon_name": "profile_reward_default",
+        "icon_type": "png",
+        "icon_file": "profile_reward_default.png",
+        "icon_url": "https://images.elivehive.com/page_config/profile/profile_reward_default.png"
+      },
+      {
+        "title": "Withdraw",
+        "page": "Profile",
+        "tag": "profile_withdraw",
+        "icon_name": "profile_withdraw_default",
+        "icon_type": "png",
+        "icon_file": "profile_withdraw_default.png",
+        "icon_url": "https://images.elivehive.com/page_config/profile/profile_withdraw_default.png"
+      },
+      {
+        "title": "Follow Request",
+        "page": "Profile",
+        "tag": "profile_follow_request",
+        "icon_name": "profile_follow_request_default",
+        "icon_type": "png",
+        "icon_file": "profile_follow_request_default.png",
+        "icon_url": "https://images.elivehive.com/page_config/profile/profile_follow_request_default.png"
+      },
+      {
+        "title": "Blocked",
+        "page": "Profile",
+        "tag": "profile_blocked",
+        "icon_name": "profile_blocked_default",
+        "icon_type": "png",
+        "icon_file": "profile_blocked_default.png",
+        "icon_url": "https://images.elivehive.com/page_config/profile/profile_blocked_default.png"
+      },
+      {
+        "title": "Settings",
+        "page": "Profile",
+        "tag": "profile_settings",
+        "icon_name": "profile_settings_default",
+        "icon_type": "png",
+        "icon_file": "profile_settings_default.png",
+        "icon_url": "https://images.elivehive.com/page_config/profile/profile_settings_default.png"
+      },
+      {
+        "title": "VIP Background",
+        "page": "Profile",
+        "tag": "profile_vip_bg",
+        "icon_name": "profile_vip_bg_default",
+        "icon_type": "png",
+        "icon_file": "profile_vip_bg_default.png",
+        "icon_url": "https://images.elivehive.com/page_config/profile/profile_vip_bg_default.png"
+      },
+      {
+        "title": "VIP Icon",
+        "page": "Profile",
+        "tag": "profile_vip_icon",
+        "icon_name": "profile_vip_icon_default",
+        "icon_type": "png",
+        "icon_file": "profile_vip_icon_default.png",
+        "icon_url": "https://images.elivehive.com/page_config/profile/profile_vip_icon_default.png"
+      },
+      {
+        "title": "VIP Buy Now Button",
+        "page": "Profile",
+        "tag": "profile_buy_now",
+        "icon_name": "profile_buy_now_default",
+        "icon_type": "png",
+        "icon_file": "profile_buy_now_default.png",
+        "icon_url": "https://images.elivehive.com/page_config/profile/profile_buy_now_default.png"
+      },
+      {
+        "title": "My Data Background",
+        "page": "Profile",
+        "tag": "profile_my_data",
+        "icon_name": "profile_my_data_default",
+        "icon_type": "png",
+        "icon_file": "profile_my_data_default.png",
+        "icon_url": "https://images.elivehive.com/page_config/profile/profile_my_data_default.png"
+      },
+      {
+        "title": "Help Center",
+        "page": "Chat",
+        "tag": "chat_help_center",
+        "icon_name": "chat_help_center_default",
+        "icon_type": "png",
+        "icon_file": "chat_help_center_default.png",
+        "icon_url": "https://images.elivehive.com/page_config/chat/chat_help_center_default.png"
+      },
+      {
+        "title": "Private Call",
+        "page": "Chat",
+        "tag": "chat_private_call",
+        "icon_name": "chat_private_call_default",
+        "icon_type": "png",
+        "icon_file": "chat_private_call_default.png",
+        "icon_url": "https://images.elivehive.com/page_config/chat/chat_private_call_default.png"
+      },
+      {
+        "title": "Notification",
+        "page": "Chat",
+        "tag": "chat_notification",
+        "icon_name": "chat_notification_default",
+        "icon_type": "png",
+        "icon_file": "chat_notification_default.png",
+        "icon_url": "https://images.elivehive.com/page_config/chat/chat_notification_default.png"
+      },
+      {
+        "title": "Create Group",
+        "page": "Chat",
+        "tag": "chat_create_group",
+        "icon_name": "chat_create_group_icon_default",
+        "icon_type": "png",
+        "icon_file": "chat_create_group_icon_default.png",
+        "icon_url": "https://images.elivehive.com/page_config/chat/chat_create_group_icon_default.png"
+      },
+      {
+        "title": "Create Group",
+        "page": "Chat",
+        "tag": "chat_create_group_bg",
+        "icon_name": "chat_create_group_bg_default",
+        "icon_type": "png",
+        "icon_file": "chat_create_group_bg_default.png",
+        "icon_url": "https://images.elivehive.com/page_config/chat/chat_create_group_bg_default.png"
+      },
+      {
+        "title": "Start Live",
+        "page": "Chat",
+        "tag": "chat_start_live_bg",
+        "icon_name": "chat_start_live_bg_default",
+        "icon_type": "png",
+        "icon_file": "chat_start_live_bg_default.png",
+        "icon_url": "https://images.elivehive.com/page_config/chat/chat_start_live_bg_default.png"
+      },
+      {
+        "title": "Start Live",
+        "page": "Chat",
+        "tag": "chat_start_live",
+        "icon_name": "chat_start_live_default",
+        "icon_type": "png",
+        "icon_file": "chat_start_live_default.png",
+        "icon_url": "https://images.elivehive.com/page_config/chat/chat_start_live_default.png"
+      },
+      {
+        "title": "Accept Live",
+        "page": "Chat",
+        "tag": "chat_accept_call",
+        "icon_name": "chat_accept_live_default",
+        "icon_type": "png",
+        "icon_file": "chat_accept_live_default.png",
+        "icon_url": "https://images.elivehive.com/page_config/chat/chat_accept_live_default.png"
+      },
+      {
+        "title": "Accept Live",
+        "page": "Chat",
+        "tag": "chat_accept_live_bg",
+        "icon_name": "chat_accept_live_bg_default",
+        "icon_type": "png",
+        "icon_file": "chat_accept_live_default.png",
+        "icon_url": "https://images.elivehive.com/page_config/chat/chat_accept_live_bg_default.png"
+      },
+      {
+        "title": "Reject Live",
+        "page": "Chat",
+        "tag": "chat_reject_call",
+        "icon_name": "chat_reject_live_default",
+        "icon_type": "png",
+        "icon_file": "chat_accept_live_default.png",
+        "icon_url": "https://images.elivehive.com/page_config/chat/chat_reject_live_default.png"
+      },
+      {
+        "title": "Reject Live",
+        "page": "Chat",
+        "tag": "chat_reject_live_bg",
+        "icon_name": "chat_reject_live_bg_default",
+        "icon_type": "png",
+        "icon_file": "chat_accept_live_default.png",
+        "icon_url": "https://images.elivehive.com/page_config/chat/chat_reject_live_bg_default.png"
+      },
+      {
+        "title": "Admin",
+        "page": "Chat",
+        "tag": "chat_group_admin",
+        "icon_name": "chat_group_admin_default",
+        "icon_type": "png",
+        "icon_file": "chat_group_admin_default.png",
+        "icon_url": "https://images.elivehive.com/page_config/chat/chat_group_admin_default.png"
+      },
+      {
+        "title": "Group Chat",
+        "page": "Chat",
+        "tag": "chat_group_chat",
+        "icon_name": "chat_group_chat_default",
+        "icon_type": "png",
+        "icon_file": "chat_group_chat_default.png",
+        "icon_url": "https://images.elivehive.com/page_config/chat/chat_group_chat_default.png"
+      },
+      {
+        "title": "Add Friend",
+        "page": "Chat",
+        "tag": "chat_add_friend",
+        "icon_name": "chat_add_friend_default",
+        "icon_type": "png",
+        "icon_file": "chat_add_friend_default.png",
+        "icon_url": "https://images.elivehive.com/page_config/chat/chat_add_friend_default.png"
+      },
+      {
+        "title": "Add Friend Background",
+        "page": "Chat",
+        "tag": "chat_add_friend_bg",
+        "icon_name": "chat_add_friend_bg_default",
+        "icon_type": "png",
+        "icon_file": "chat_add_friend_default.png",
+        "icon_url": "https://images.elivehive.com/page_config/chat/chat_add_friend_bg_default.png"
+      },
+      {
+        "title": "Edit Profile",
+        "page": "Profile",
+        "tag": "profile_edit",
+        "icon_name": "profile_edit_default",
+        "icon_type": "png",
+        "icon_file": "profile_edit_default.png",
+        "icon_url": "https://images.elivehive.com/page_config/profile/profile_edit_default.png"
+      },
+      {
+        "title": "Edit Profile",
+        "page": "Profile",
+        "tag": "profile_edit_bg",
+        "icon_name": "profile_edit_bg_default",
+        "icon_type": "png",
+        "icon_file": "profile_edit_bg_default.png",
+        "icon_url": "https://images.elivehive.com/page_config/profile/profile_edit_bg_default.png"
+      },
+      {
+        "title": "Leaderboard Rank Frames",
+        "page": "Home",
+        "tag": "home_leaderboard_frame",
+        "icon_name": "home_leaderboard_frame_default",
+        "icon_type": "png",
+        "icon_file": "home_leaderboard_frame_default.png",
+        "icon_url": "https://images.elivehive.com/page_config/profile/home_leaderboard_frame_default.png"
+      },
+      {
+        "title": "Explore More",
+        "page": "Explore",
+        "tag": "explore_more",
+        "icon_name": "explore_more_default",
+        "icon_type": "png",
+        "icon_file": "explore_more_default.png",
+        "icon_url": "https://images.elivehive.com/page_config/profile/explore_more_default.png"
+      },
+      {
+        "title": "Chat Background",
+        "page": "Chat",
+        "tag": "chat_message_background_default",
+        "icon_name": "chat_message_background_default",
+        "icon_type": "png",
+        "icon_file": "chat_message_background_default.png",
+        "icon_url": "https://images.elivehive.com/page_config/profile/chat_message_background_default.png"
+      },
+      {
+        "title": "Underline",
+        "page": "Explore",
+        "tag": "explore_country_underline_default",
+        "icon_name": "underline_default",
+        "icon_type": "png",
+        "icon_file": "underline_default.png",
+        "icon_url": "https://images.elivehive.com/page_config/home/underline_default.png"
+      },
+      {
+        "title": "Underline",
+        "page": "Explore",
+        "tag": "explore_spotlight_underline_default",
+        "icon_name": "underline_default",
+        "icon_type": "png",
+        "icon_file": "underline_default.png",
+        "icon_url": "https://images.elivehive.com/page_config/home/underline_default.png"
+      },
+      {
+        "title": "Underline",
+        "page": "Chat",
+        "tag": "chat_history_tab",
+        "icon_name": "underline_default",
+        "icon_type": "png",
+        "icon_file": "underline_default.png",
+        "icon_url": "https://images.elivehive.com/page_config/home/underline_default.png"
+      },
+      {
+        "title": "Underline",
+        "page": "Chat",
+        "tag": "chat_history_underline_inactive_default",
+        "icon_name": "underline_inactive_default",
+        "icon_type": "png",
+        "icon_file": "underline_inactive_default.png",
+        "icon_url": "https://images.elivehive.com/page_config/home/underline_inactive_default.png"
+      },
+      {
+        "title": "Underline",
+        "page": "Chat",
+        "tag": "chat_friends_underline_inactive_default",
+        "icon_name": "underline_inactive_default",
+        "icon_type": "png",
+        "icon_file": "underline_inactive_default.png",
+        "icon_url": "https://images.elivehive.com/page_config/home/underline_inactive_default.png"
+      },
+      {
+        "title": "Underline",
+        "page": "Chat",
+        "tag": "chat_friends_tab",
+        "icon_name": "underline_default",
+        "icon_type": "png",
+        "icon_file": "underline_default.png",
+        "icon_url": "https://images.elivehive.com/page_config/home/underline_default.png"
+      },
+      {
+        "title": "Underline",
+        "page": "Follow",
+        "tag": "follow_recommended_underline_default",
+        "icon_name": "underline_default",
+        "icon_type": "png",
+        "icon_file": "underline_default.png",
+        "icon_url": "https://images.elivehive.com/page_config/home/underline_default.png"
+      },
+      {
+        "title": "Underline",
+        "page": "Follow",
+        "tag": "follow_my_follow_underline_default",
+        "icon_name": "underline_default",
+        "icon_type": "png",
+        "icon_file": "underline_default.png",
+        "icon_url": "https://images.elivehive.com/page_config/home/underline_default.png"
+      }
+    ],
+    "languages": [
+      {
+        "available_languages": [
+          {
+            "tag": "en",
+            "title": "English"
+          },
+          {
+            "tag": "bn",
+            "title": "বাংলা"
+          },
+          {
+            "tag": "hi",
+            "title": "हिन्दी"
+          },
+          {
+            "tag": "ur",
+            "title": "اردو"
+          },
+          {
+            "tag": "es",
+            "title": "Español"
+          },
+          {
+            "tag": "pt",
+            "title": "portugués"
+          },
+          {
+            "tag": "ar",
+            "title": "عربي"
+          },
+          {
+            "tag": "tr",
+            "title": "Türkçe"
+          },
+          {
+            "tag": "fr",
+            "title": "Fransizca"
+          }
+        ],
+        "translates": [
+          {
+            "tag": "home_top_popular",
+            "en": "Popular",
+            "bn": "জনপ্রিয়",
+            "hi": "लोकप्रिय",
+            "ur": "مشہور",
+            "es": "Popular",
+            "pt": "Popular",
+            "ar": "شائع",
+            "tr": "Popüler",
+            "fr": "Populaire"
+          },
+          {
+            "tag": "home_top_new",
+            "en": "New",
+            "bn": "নতুন",
+            "hi": "नया",
+            "ur": "نیا",
+            "es": "Nuevo",
+            "pt": "Novo",
+            "ar": "جديد",
+            "tr": "Yeni",
+            "fr": "Nouveau"
+          },
+          {
+            "tag": "home_top_follow",
+            "en": "Follow",
+            "bn": "অনুসরণ করুন",
+            "hi": "अनुसरण करें",
+            "ur": "پیروی کریں",
+            "es": "Seguir",
+            "pt": "Seguir",
+            "ar": "متابعة",
+            "tr": "Takip Et",
+            "fr": "Suivre"
+          },
+          {
+            "tag": "chat_top_message",
+            "en": "Message",
+            "bn": "বার্তা",
+            "hi": "संदेश",
+            "ur": "پیغام",
+            "es": "Mensaje",
+            "pt": "Mensagem",
+            "ar": "رسالة",
+            "tr": "Mesaj",
+            "fr": "Message"
+          },
+          {
+            "tag": "chat_top_group",
+            "en": "Group",
+            "bn": "গ্রুপ",
+            "hi": "समूह",
+            "ur": "گروپ",
+            "es": "Grupo",
+            "pt": "Grupo",
+            "ar": "مجموعة",
+            "tr": "Grup",
+            "fr": "Groupe"
+          },
+          {
+            "tag": "chat_history_tab",
+            "en": "Chat History",
+            "bn": "চ্যাট ইতিহাস",
+            "hi": "चैट इतिहास",
+            "ur": "چیٹ ہسٹری",
+            "es": "Historial de Chat",
+            "pt": "Histórico de Chat",
+            "ar": "تاريخ الدردشة",
+            "tr": "Sohbet Geçmişi",
+            "fr": "Historique de Chat"
+          },
+          {
+            "tag": "chat_friends_tab",
+            "en": "Friends",
+            "bn": "বন্ধুরা",
+            "hi": "दोस्त",
+            "ur": "دوست",
+            "es": "Amigos",
+            "pt": "Amigos",
+            "ar": "أصدقاء",
+            "tr": "Arkadaşlar",
+            "fr": "Amis"
+          },
+          {
+            "tag": "home_top_receiver",
+            "en": "Top Receiver",
+            "bn": "শীর্ষ প্রাপক",
+            "hi": "शीर्ष प्राप्तकर्ता",
+            "ur": "اعلی وصول کنندہ",
+            "es": "Mejor Receptor",
+            "pt": "Melhor Receptor",
+            "ar": "أفضل مستلم",
+            "tr": "En İyi Alıcı",
+            "fr": "Meilleur Récepteur"
+          },
+          {
+            "tag": "home_top_sender",
+            "en": "Top Sender",
+            "bn": "শীর্ষ প্রেরক",
+            "hi": "शीर्ष प्रेषक",
+            "ur": "اعلی بھیجنے والا",
+            "es": "Mejor Remitente",
+            "pt": "Melhor Remetente",
+            "ar": "أفضل مرسل",
+            "tr": "En İyi Gönderen",
+            "fr": "Meilleur Expéditeur"
+          },
+          {
+            "tag": "home_top_pk",
+            "en": "Top PK",
+            "bn": "শীর্ষ পিকে",
+            "hi": "शीर्ष पीके",
+            "ur": "اعلی پی کے",
+            "es": "Mejor PK",
+            "pt": "Melhor PK",
+            "ar": "أفضل PK",
+            "tr": "En İyi PK",
+            "fr": "Meilleur PK"
+          },
+          {
+            "tag": "explore_page",
+            "en": "Explore",
+            "bn": "অন্বেষণ",
+            "hi": "अन्वेषण करें",
+            "ur": "دریافت کریں",
+            "es": "Explorar",
+            "pt": "Explorar",
+            "ar": "استكشاف",
+            "tr": "Keşfet",
+            "fr": "Explorer"
+          },
+          {
+            "tag": "explore_country_section",
+            "en": "Countries",
+            "bn": "দেশগুলি",
+            "hi": "देश",
+            "ur": "ممالک",
+            "es": "Países",
+            "pt": "Países",
+            "ar": "بلدان",
+            "tr": "Ülkeler",
+            "fr": "Pays"
+          },
+          {
+            "tag": "explore_spotlight_section",
+            "en": "Spotlight",
+            "bn": "স্পটলাইট",
+            "hi": "स्पॉटलाइट",
+            "ur": "اسپاٹ لائٹ",
+            "es": "Destacado",
+            "pt": "Destaque",
+            "ar": "تسليط الضوء",
+            "tr": "Spot Işığı",
+            "fr": "Projecteur"
+          },
+          {
+            "tag": "home_feed_tag_popular",
+            "en": "Popular",
+            "bn": "জনপ্রিয়",
+            "hi": "लोकप्रिय",
+            "ur": "مشہور",
+            "es": "Popular",
+            "pt": "Popular",
+            "ar": "شائع",
+            "tr": "Popüler",
+            "fr": "Populaire"
+          },
+          {
+            "tag": "home_feed_tag_friends",
+            "en": "Friends",
+            "bn": "বন্ধুরা",
+            "hi": "दोस्त",
+            "ur": "دوست",
+            "es": "Amigos",
+            "pt": "Amigos",
+            "ar": "أصدقاء",
+            "tr": "Arkadaşlar",
+            "fr": "Amis"
+          },
+          {
+            "tag": "home_feed_tag_sing",
+            "en": "Sing",
+            "bn": "গান",
+            "hi": "गाना",
+            "ur": "گانا",
+            "es": "Cantar",
+            "pt": "Cantar",
+            "ar": "يغني",
+            "tr": "Şarkı Söyle",
+            "fr": "Chanter"
+          },
+          {
+            "tag": "home_feed_tag_love",
+            "en": "Love",
+            "bn": "ভালবাসা",
+            "hi": "प्यार",
+            "ur": "محبت",
+            "es": "Amor",
+            "pt": "Amor",
+            "ar": "حب",
+            "tr": "Aşk",
+            "fr": "Amour"
+          },
+          {
+            "tag": "home_feed_tag_family",
+            "en": "Family",
+            "bn": "পরিবার",
+            "hi": "परिवार",
+            "ur": "خاندان",
+            "es": "Familia",
+            "pt": "Família",
+            "ar": "أسرة",
+            "tr": "Aile",
+            "fr": "Famille"
+          },
+          {
+            "tag": "home_feed_tag_chat",
+            "en": "Chat",
+            "bn": "চ্যাট",
+            "hi": "चैट",
+            "ur": "چیٹ",
+            "es": "Chat",
+            "pt": "Chat",
+            "ar": "دردشة",
+            "tr": "Sohbet",
+            "fr": "Chat"
+          },
+          {
+            "tag": "home_feed_tag_romance",
+            "en": "Romance",
+            "bn": "রোম্যান্স",
+            "hi": "रोमांस",
+            "ur": "رومانس",
+            "es": "Romance",
+            "pt": "Romance",
+            "ar": "رومانسية",
+            "tr": "Romantik",
+            "fr": "Romance"
+          },
+          {
+            "tag": "follow_recommended_section",
+            "en": "Recommended",
+            "bn": "প্রস্তাবিত",
+            "hi": "अनुशंसित",
+            "ur": "تجویز کردہ",
+            "es": "Recomendado",
+            "pt": "Recomendado",
+            "ar": "موصى به",
+            "tr": "Önerilen",
+            "fr": "Recommandé"
+          },
+          {
+            "tag": "follow_feed_section",
+            "en": "My Follow",
+            "bn": "আমার অনুসরণ",
+            "hi": "मेरा अनुसरण",
+            "ur": "میری پیروی",
+            "es": "Mis Seguidos",
+            "pt": "Meus Seguidos",
+            "ar": "متابعاتي",
+            "tr": "Takiplerim",
+            "fr": "Mes Abonnements"
+          },
+          {
+            "tag": "profile_wallet",
+            "en": "Wallet",
+            "bn": "ওয়ালেট",
+            "hi": "बटुआ",
+            "ur": "والٹ",
+            "es": "Billetera",
+            "pt": "Carteira",
+            "ar": "محفظة",
+            "tr": "Cüzdan",
+            "fr": "Portefeuille"
+          },
+          {
+            "tag": "profile_mall",
+            "en": "Mall",
+            "bn": "মল",
+            "hi": "मॉल",
+            "ur": "مال",
+            "es": "Centro Comercial",
+            "pt": "Shopping",
+            "ar": "مول",
+            "tr": "Alışveriş Merkezi",
+            "fr": "Centre Commercial"
+          },
+          {
+            "tag": "profile_task",
+            "en": "Task",
+            "bn": "কাজ",
+            "hi": "कार्य",
+            "ur": "کام",
+            "es": "Tarea",
+            "pt": "Tarefa",
+            "ar": "مهمة",
+            "tr": "Görev",
+            "fr": "Tâche"
+          },
+          {
+            "tag": "profile_level",
+            "en": "Level",
+            "bn": "লেভেল",
+            "hi": "स्तर",
+            "ur": "سطح",
+            "es": "Nivel",
+            "pt": "Nível",
+            "ar": "المستوى",
+            "tr": "Seviye",
+            "fr": "Niveau"
+          },
+          {
+            "tag": "profile_public_profile",
+            "en": "Public Profile",
+            "bn": "পাবলিক প্রোফাইল",
+            "hi": "सार्वजनिक प्रोफ़ाइल",
+            "ur": "عوامی پروفائل",
+            "es": "Perfil Público",
+            "pt": "Perfil Público",
+            "ar": "الملف العام",
+            "tr": "Herkese Açık Profil",
+            "fr": "Profil Public"
+          },
+          {
+            "tag": "profile_my_badges",
+            "en": "My Badges",
+            "bn": "আমার ব্যাজ",
+            "hi": "मेरे बैज",
+            "ur": "میرے بیجز",
+            "es": "Mis Insignias",
+            "pt": "Meus Distintivos",
+            "ar": "شاراتي",
+            "tr": "Rozetlerim",
+            "fr": "Mes Badges"
+          },
+          {
+            "tag": "profile_my_bag",
+            "en": "My Bag",
+            "bn": "আমার ব্যাগ",
+            "hi": "मेरा बैग",
+            "ur": "میرا بیگ",
+            "es": "Mi Bolsa",
+            "pt": "Minha Bolsa",
+            "ar": "حقيبتي",
+            "tr": "Çantam",
+            "fr": "Mon Sac"
+          },
+          {
+            "tag": "profile_guardianship",
+            "en": "Guardianship",
+            "bn": "অভিভাবকত্ব",
+            "hi": "अभिभावकता",
+            "ur": "سرپرستی",
+            "es": "Tutela",
+            "pt": "Tutela",
+            "ar": "الوصاية",
+            "tr": "Vesayet",
+            "fr": "Tutelle"
+          },
+          {
+            "tag": "profile_reward",
+            "en": "Reward",
+            "bn": "পুরস্কার",
+            "hi": "इनाम",
+            "ur": "انعام",
+            "es": "Recompensa",
+            "pt": "Recompensa",
+            "ar": "مكافأة",
+            "tr": "Ödül",
+            "fr": "Récompense"
+          },
+          {
+            "tag": "profile_withdraw",
+            "en": "Withdraw",
+            "bn": "উত্তোলন",
+            "hi": "निकासी",
+            "ur": "نکالنا",
+            "es": "Retirar",
+            "pt": "Retirar",
+            "ar": "سحب",
+            "tr": "Çekil",
+            "fr": "Retirer"
+          },
+          {
+            "tag": "profile_follow_request",
+            "en": "Follow Request",
+            "bn": "অনুসরণের অনুরোধ",
+            "hi": "अनुरोध का पालन करें",
+            "ur": "فالو درخواست",
+            "es": "Solicitud de Seguimiento",
+            "pt": "Solicitação de Seguir",
+            "ar": "طلب متابعة",
+            "tr": "Takip İsteği",
+            "fr": "Demande de Suivi"
+          },
+          {
+            "tag": "profile_blocked",
+            "en": "Blocked",
+            "bn": "ব্লক করা হয়েছে",
+            "hi": "अवरोधित",
+            "ur": "بلاک",
+            "es": "Bloqueado",
+            "pt": "Bloqueado",
+            "ar": "محظور",
+            "tr": "Engellenmiş",
+            "fr": "Bloqué"
+          },
+          {
+            "tag": "profile_settings",
+            "en": "Settings",
+            "bn": "সেটিংস",
+            "hi": "सेटिंग्स",
+            "ur": "ترتیبات",
+            "es": "Configuraciones",
+            "pt": "Configurações",
+            "ar": "إعدادات",
+            "tr": "Ayarlar",
+            "fr": "Paramètres"
+          },
+          {
+            "tag": "chat_add_friend",
+            "en": "Add Friend",
+            "bn": "বন্ধু যোগ করুন",
+            "hi": "मित्र जोड़ें",
+            "ur": "دوست شامل کریں",
+            "es": "Agregar Amigo",
+            "pt": "Adicionar Amigo",
+            "ar": "إضافة صديق",
+            "tr": "Arkadaş Ekle",
+            "fr": "Ajouter un Ami"
+          },
+          {
+            "tag": "chat_group_admin",
+            "en": "Group Admin",
+            "bn": "গ্রুপ অ্যাডমিন",
+            "hi": "समूह प्रशासक",
+            "ur": "گروپ ایڈمن",
+            "es": "Administrador del Grupo",
+            "pt": "Administrador do Grupo",
+            "ar": "مسؤول المجموعة",
+            "tr": "Grup Yöneticisi",
+            "fr": "Administrateur du Groupe"
+          },
+          {
+            "tag": "chat_start_live",
+            "en": "Start Live",
+            "bn": "লাইভ শুরু করুন",
+            "hi": "लाइव शुरू करें",
+            "ur": "لائیو شروع کریں",
+            "es": "Iniciar en Vivo",
+            "pt": "Iniciar ao Vivo",
+            "ar": "ابدأ البث المباشر",
+            "tr": "Canlı Başlat",
+            "fr": "Démarrer en Direct"
+          },
+          {
+            "tag": "chat_accept_call",
+            "en": "Accept Call",
+            "bn": "কল গ্রহণ করুন",
+            "hi": "कॉल स्वीकार करें",
+            "ur": "کال قبول کریں",
+            "es": "Aceptar Llamada",
+            "pt": "Aceitar Chamada",
+            "ar": "قبول المكالمة",
+            "tr": "Çağrıyı Kabul Et",
+            "fr": "Accepter l'Appel"
+          },
+          {
+            "tag": "chat_reject_call",
+            "en": "Reject Call",
+            "bn": "কল প্রত্যাখ্যান করুন",
+            "hi": "कॉल अस्वीकार करें",
+            "ur": "کال مسترد کریں",
+            "es": "Rechazar Llamada",
+            "pt": "Rejeitar Chamada",
+            "ar": "رفض المكالمة",
+            "tr": "Çağrıyı Reddet",
+            "fr": "Rejeter l'Appel"
+          },
+          {
+            "tag": "chat_create_group",
+            "en": "Create New Group",
+            "bn": "গ্রুপ তৈরি করুন",
+            "hi": "समूह बनाएं",
+            "ur": "گروپ بنائیں",
+            "es": "Crear Grupo",
+            "pt": "Criar Grupo",
+            "ar": "إنشاء مجموعة",
+            "tr": "Grup Oluştur",
+            "fr": "Créer un Groupe"
+          },
+          {
+            "tag": "profile_edit",
+            "en": "Edit Profile",
+            "bn": "প্রোফাইল এডিট",
+            "hi": "प्रोफ़ाइल संपादित",
+            "ur": "پروفائل میں ترمیم",
+            "es": "Editar Perfil",
+            "pt": "Editar Perfil",
+            "ar": "تعديل الشخصي",
+            "tr": "Profili Düzenle",
+            "fr": "Modifier le Profil"
+          },
+          {
+            "tag": "explore_more",
+            "en": "More",
+            "bn": "আরও",
+            "hi": "अधिक",
+            "ur": "مزید",
+            "es": "Más",
+            "pt": "Mais",
+            "ar": "المزيد",
+            "tr": "Daha Fazla",
+            "fr": "Plus"
+          },
+          {
+            "tag": "profile_followers",
+            "en": "Followers",
+            "bn": "অনুসরণকারী",
+            "hi": "अनुयायी",
+            "ur": "فالورز",
+            "es": "Seguidores",
+            "pt": "Seguidores",
+            "ar": "المتابعون",
+            "tr": "Takipçiler",
+            "fr": "Abonnés"
+          },
+          {
+            "tag": "profile_following",
+            "en": "Following",
+            "bn": "অনুসরণ করছে",
+            "hi": "अनुसरण",
+            "ur": "فالوونگ",
+            "es": "Siguiendo",
+            "pt": "Seguindo",
+            "ar": "المتابَعون",
+            "tr": "Takip Edilenler",
+            "fr": "Abonnements"
+          },
+          {
+            "tag": "profile_friends",
+            "en": "Friends",
+            "bn": "বন্ধু",
+            "hi": "मित्र",
+            "ur": "دوست",
+            "es": "Amigos",
+            "pt": "Amigos",
+            "ar": "الأصدقاء",
+            "tr": "Arkadaşlar",
+            "fr": "Amis"
+          },
+          {
+            "tag": "profile_buy_now",
+            "en": "BUY NOW",
+            "bn": "এখনই কিনুন",
+            "hi": "अभी खरीदें",
+            "ur": "ابھی خریدیں",
+            "es": "COMPRAR AHORA",
+            "pt": "COMPRE AGORA",
+            "ar": "اشتر الآن",
+            "tr": "ŞİMDİ SATIN AL",
+            "fr": "ACHETEZ MAINTENANT"
+          },
+          {
+            "tag": "profile_vip_promotion_text",
+            "en": "Open VIP and enjoy exclusive VIP Privileges",
+            "bn": "ভিআইপি খুলুন এবং এক্সক্লুসিভ ভিআইপি সুবিধা উপভোগ করুন",
+            "hi": "वीआईपी खोलें और विशेष वीआईपी विशेषाधिकारों का आनंद लें",
+            "ur": "VIP کھولیں اور خصوصی VIP مراعات سے لطف اندوز ہوں",
+            "es": "Abre VIP y disfruta de privilegios VIP exclusivos",
+            "pt": "Abra o VIP e aproveite os privilégios VIP exclusivos",
+            "ar": "افتح VIP واستمتع بامتيازات VIP الحصرية",
+            "tr": "VIP'yi açın ve özel VIP ayrıcalıklarının keyfini çıkarın",
+            "fr": "Ouvrez VIP et profitez des privilèges VIP exclusifs"
+          },
+          {
+            "tag": "profile_my_data_text",
+            "en": "My Data",
+            "bn": "আমার ডেটা",
+            "hi": "मेरा डेटा",
+            "ur": "میرا ڈیٹا",
+            "es": "Mis Datos",
+            "pt": "Meus Dados",
+            "ar": "بياناتي",
+            "tr": "Verilerim",
+            "fr": "Mes Données"
+          },
+          {
+            "tag": "profile_total_earned_text",
+            "en": "Total Earned",
+            "bn": "মোট উপার্জন",
+            "hi": "कुल कमाई",
+            "ur": "کل کمایا ہوا",
+            "es": "Total Ganado",
+            "pt": "Total Ganhado",
+            "ar": "إجمالي الأرباح",
+            "tr": "Toplam Kazanç",
+            "fr": "Total Gagné"
+          },
+          {
+            "tag": "profile_live_duration_text",
+            "en": "Live Duration",
+            "bn": "লাইভ সময়কাল",
+            "hi": "लाइव अवधि",
+            "ur": "لائیو دورانیہ",
+            "es": "Duración en Vivo",
+            "pt": "Duração ao Vivo",
+            "ar": "مدة البث المباشر",
+            "tr": "Canlı Süre",
+            "fr": "Durée en Direct"
+          },
+          {
+            "tag": "profile_VIP_text",
+            "en": "VIP",
+            "bn": "VIP",
+            "hi": "VIP",
+            "ur": "VIP",
+            "es": "VIP",
+            "pt": "VIP",
+            "ar": "VIP",
+            "tr": "VIP",
+            "fr": "VIP"
+          },
+          {
+            "tag": "home_select_live_tag_text",
+            "en": "Select a Live Tag",
+            "bn": "একটি লাইভ ট্যাগ নির্বাচন করুন",
+            "hi": "एक लाइव टैग चुनें",
+            "ur": "ایک لائیو ٹیگ منتخب کریں",
+            "es": "Selecciona una Etiqueta en Vivo",
+            "pt": "Selecione uma Tag ao Vivo",
+            "ar": "اختر علامة بث مباشر",
+            "tr": "Bir Canlı Etiket Seçin",
+            "fr": "Sélectionnez une Étiquette en Direct"
+          }
+        ]
+      }
+    ]
+  }
+}
